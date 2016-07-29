@@ -5,8 +5,10 @@
 :root {
 	height: 100%;
 
-	font-family: "Work Sans", sans-serif;
-	font-weight: 300;
+	font: {
+		family: "Work Sans", sans-serif;
+		weight: 300;
+	}
 }
 
 body {

@@ -3,7 +3,7 @@
 	margin: 0 auto;
 	padding: 2rem {
 		left: 1rem;
-	};
+	}
 
 	& > h1 {
 		color: var(--color-accent);
