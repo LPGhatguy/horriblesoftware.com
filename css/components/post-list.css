@@ -1,0 +1,13 @@
+[data-component="post-list"] {
+	> article:first-of-type {
+		padding-top: 0;
+	}
+
+	> article:last-of-type {
+		padding-bottom: 0;
+	}
+
+	> article + article {
+		border-top: 1px solid var(--color-subtle);
+	}
+}

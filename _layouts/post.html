@@ -1,0 +1,13 @@
+---
+layout: page
+slug: post
+---
+
+<article data-component="post">
+	<h1>{{ page.title }}</h1>
+	<time class="date-posted" aria-label="Date posted: {{ page.date | date: "%F" }}">{{ page.date | date: "%F" }}</time>
+
+	<div class="content" data-component="wysiwyg">
+		{{ content }}
+	</div>
+</article>

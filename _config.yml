@@ -1,0 +1,17 @@
+gems: [jekyll-paginate]
+paginate: 8
+root: http://horriblesoftware.com
+timezone: America/Denver
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            layout: "page"

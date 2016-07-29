@@ -1,0 +1,5 @@
+[data-component="site-main"] {
+	max-width: var(--site-width);
+	margin: 0 auto;
+	padding: 0 2rem;
+}

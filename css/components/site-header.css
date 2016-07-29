@@ -1,0 +1,19 @@
+[data-component="site-header"] {
+	max-width: var(--site-width);
+	margin: 0 auto;
+	padding: 2rem {
+		left: 1rem;
+	};
+
+	& > h1 {
+		color: var(--color-accent);
+		font-size: 3.8rem;
+		font-weight: 200;
+	}
+
+	& > h2 {
+		font-size: 1.8rem;
+		margin-left: 2em;
+		font-weight: 200;
+	}
+}

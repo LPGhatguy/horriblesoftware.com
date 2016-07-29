@@ -1,0 +1,14 @@
+@import "./reset";
+@import "./theme.css";
+@import "./components/**/*.css";
+
+:root {
+	height: 100%;
+
+	font-family: "Work Sans", sans-serif;
+	font-weight: 300;
+}
+
+body {
+	min-height: 100%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="description" content="Software is pretty horrible." />
+
+	{% if page.title %}
+		<title>{{ page.title }}: Horrible Software</title>
+	{% else %}
+		<title>Horrible Software</title>
+	{% endif %}
+
+	<link rel="stylesheet" href="/assets/theme.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:200,300" />
+</head>
+<body data-page="{{ page.slug }}">
+	<header data-component="site-header" role="banner">
+		<h1>
+			<a href="/">Horrible Software</a>
+		</h1>
+		<h2>code like you give a damn</h2>
+	</header>
+
+	<main data-component="site-main">
+		{{ content }}
+	</main>
+</body>
+</html>
