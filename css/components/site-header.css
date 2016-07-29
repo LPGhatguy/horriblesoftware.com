@@ -16,4 +16,12 @@
 		margin-left: 2em;
 		font-weight: 200;
 	}
+
+	@media screen and (max-width: 60rem) {
+		text-align: center;
+
+		& > h2 {
+			margin-left: 0;
+		}
+	}
 }

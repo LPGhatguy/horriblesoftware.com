@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 :root {
 	--site-width: 60rem;
-	--color-accent: #f00;
+	--color-accent: #d11;
 	--color-subtle: #bbb;
 }
 [data-component="post-list"] > article:first-of-type {
@@ -103,15 +103,22 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 200;
 }
 [data-component="post"] > .date-posted {
+	display: block;
+	padding-top: 0.2rem;
 	color: #666;
 }
 [data-component="post"] > .content {
-	margin:  0 1rem;
+	margin:  0 0.5rem;
 	margin-top: 1rem;
 }
 [data-component="post"]:first-of-type:last-of-type {
 	padding-top: 0;
 	padding-bottom: 0;
+}
+@media screen and (max-width: 60rem) {
+	[data-component="post"] > h1 {
+		font-size: 2.5rem;
+	}
 }
 [data-component="site-header"] {
 	max-width: 60rem;
@@ -121,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 1rem;
 }
 [data-component="site-header"] > h1 {
-	color: #f00;
+	color: #d11;
 	color: var(--color-accent);
 	font-size: 3.8rem;
 	font-weight: 200;
@@ -131,11 +138,21 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 2em;
 	font-weight: 200;
 }
+@media screen and (max-width: 60rem) {
+	[data-component="site-header"] {
+		text-align: center;
+	}
+	[data-component="site-header"] > h2 {
+		margin-left: 0;
+	}
+}
 [data-component="site-main"] {
 	max-width: 60rem;
 	max-width: var(--site-width);
 	margin: 0 auto;
-	padding: 0 2rem;
+	padding:  1.5rem;
+	padding-top: 0;
+	word-wrap: break-word;
 }
 [data-component="wysiwyg"] > .highlighter-rouge {
 	overflow-x: auto;
@@ -151,8 +168,8 @@ h1, h2, h3, h4, h5, h6 {
 	white-space: pre;
 	overflow-x: auto;
 	word-wrap: normal;
-	padding-bottom: 0.4rem;
-	padding-top: 0.4rem;
+	padding-bottom: 0.3rem;
+	padding-top: 0.3rem;
 	line-height: 1.15;
 }
 [data-component="wysiwyg"] > .highlighter-rouge .c {
