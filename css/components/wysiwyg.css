@@ -13,4 +13,8 @@
 	> p > code {
 		font-family: monospace;
 	}
+
+	a {
+		color: var(--color-accent);
+	}
 }
