@@ -1,5 +1,5 @@
 ---
-title: ! 'PHP: Functions'
+title: ! 'PHP: Functions are Strings'
 ---
 
 PHP function references are just strings.
