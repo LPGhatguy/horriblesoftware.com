@@ -413,6 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 [data-component="wysiwyg"] {
 	font-size: 1.1rem;
 	font-weight: 300;
+	line-height: 1.1;
 }
 [data-component="wysiwyg"] > * {
 	margin-top: 1rem;
