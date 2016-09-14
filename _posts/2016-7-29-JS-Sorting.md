@@ -11,7 +11,7 @@ numbers.sort();
 numbers; // [1, 100, 20]
 ```
 
-Nice.
+This is surprising for lists of numbers, but makes some sense for lists of mixed types.
 
 Giving JS a spaceship operator would yield a concise and only mildly hideous solution:
 
