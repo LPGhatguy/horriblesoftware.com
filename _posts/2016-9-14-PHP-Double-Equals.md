@@ -31,7 +31,7 @@ PHP, however, takes the idea of type juggling a step further:
 
 // Same as JS above
 0 == false; // true
-0 == true; // true
+1 == true; // true
 1 == "1"; // true
 
 // ???
