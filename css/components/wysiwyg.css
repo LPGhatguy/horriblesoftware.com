@@ -1,7 +1,7 @@
 [data-component="wysiwyg"] {
-	font-size: 1.1rem;
+	font-size: 1.125rem;
 	font-weight: 300;
-	line-height: 1.1;
+	line-height: 1.2;
 
 	> * {
 		margin-top: 1rem;
@@ -11,11 +11,21 @@
 		}
 	}
 
+	> h2 {
+		font-size: 2rem;
+		font-weight: 100;
+	}
+
 	> p > code {
 		font-family: monospace;
 	}
 
 	a {
 		color: var(--color-accent);
+	}
+
+	ul {
+		list-style: disc;
+		margin-left: 1rem;
 	}
 }

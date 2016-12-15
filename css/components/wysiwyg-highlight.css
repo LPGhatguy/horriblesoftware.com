@@ -6,6 +6,7 @@
 	font-family: monospace;
 
 	margin-left: 0.5rem;
+	line-height: 1.4;
 
 	pre code {
 		display: block;
@@ -15,7 +16,7 @@
 
 		padding-bottom: 0.3rem;
 		padding-top: 0.3rem;
-		line-height: 1.15;
+		/* line-height: 1.15; */
 	}
 
 	.c {

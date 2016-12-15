@@ -5,11 +5,12 @@
 	> h1 {
 		font-size: 3rem;
 		font-weight: 200;
+		line-height: 1.2;
 	}
 
 	> .date-posted {
 		display: block;
-		padding-top: 0.2rem;
+		line-height: 1.2;
 		color: #666;
 	}
 

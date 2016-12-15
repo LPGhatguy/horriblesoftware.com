@@ -101,10 +101,11 @@ h1, h2, h3, h4, h5, h6 {
 [data-component="post"] > h1 {
 	font-size: 3rem;
 	font-weight: 200;
+	line-height: 1.2;
 }
 [data-component="post"] > .date-posted {
 	display: block;
-	padding-top: 0.2rem;
+	line-height: 1.2;
 	color: #666;
 }
 [data-component="post"] > .content {
@@ -161,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 0.75rem;
 	font-family: monospace;
 	margin-left: 0.5rem;
+	line-height: 1.4;
 	/* Literal.Number.Integer.Long */
 }
 [data-component="wysiwyg"] > .highlighter-rouge pre code {
@@ -170,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 	word-wrap: normal;
 	padding-bottom: 0.3rem;
 	padding-top: 0.3rem;
-	line-height: 1.15;
+	/* line-height: 1.15; */
 }
 [data-component="wysiwyg"] > .highlighter-rouge .c {
 	color: #999988;
@@ -411,9 +413,9 @@ h1, h2, h3, h4, h5, h6 {
 	color: #009999;
 }
 [data-component="wysiwyg"] {
-	font-size: 1.1rem;
+	font-size: 1.125rem;
 	font-weight: 300;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 [data-component="wysiwyg"] > * {
 	margin-top: 1rem;
@@ -421,12 +423,20 @@ h1, h2, h3, h4, h5, h6 {
 [data-component="wysiwyg"] > *:first-child {
 	margin-top: 0;
 }
+[data-component="wysiwyg"] > h2 {
+	font-size: 2rem;
+	font-weight: 100;
+}
 [data-component="wysiwyg"] > p > code {
 	font-family: monospace;
 }
 [data-component="wysiwyg"] a {
 	color: #d11;
 	color: var(--color-accent);
+}
+[data-component="wysiwyg"] ul {
+	list-style: disc;
+	margin-left: 1rem;
 }
 
 :root {
