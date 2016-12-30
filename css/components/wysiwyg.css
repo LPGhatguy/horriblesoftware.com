@@ -16,8 +16,17 @@
 		font-weight: 100;
 	}
 
-	> p > code {
+	blockquote {
+		padding: 0.5rem 0 0.5rem 1rem;
+		margin-left: 0.5rem;
+		border-left: 1px solid #ccc;
+	}
+
+	p > code {
+		/* Shamelessly ripped from StackExchange */
 		font-family: monospace;
+		background-color: #eff0f1;
+		padding: 1px 5px;
 	}
 
 	a {

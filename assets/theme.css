@@ -427,8 +427,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 2rem;
 	font-weight: 100;
 }
-[data-component="wysiwyg"] > p > code {
+[data-component="wysiwyg"] blockquote {
+	padding: 0.5rem 0 0.5rem 1rem;
+	margin-left: 0.5rem;
+	border-left: 1px solid #ccc;
+}
+[data-component="wysiwyg"] p > code {
+	/* Shamelessly ripped from StackExchange */
 	font-family: monospace;
+	background-color: #eff0f1;
+	padding: 1px 5px;
 }
 [data-component="wysiwyg"] a {
 	color: #d11;
