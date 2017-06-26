@@ -46,4 +46,4 @@ The first increment operator wraps `0d9` into `0e0` by the rules above. This hap
 
 When we increment a string that looks like a number in scientific notation, PHP instead juggles it to be a number, then performs the operation on that!
 
-This isn't like to come up in any *real* code, but that doesn't stop this from being one of those bizarre features in PHP.
+This isn't likely to come up in any *real* code, but that doesn't stop this from being one of those bizarre features in PHP.
