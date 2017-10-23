@@ -139,6 +139,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 2em;
 	font-weight: 200;
 }
+[data-component="site-header"] > h2 > code {
+	font-family: monospace;
+	background-color: rgba(0, 0, 0, 0.03);
+}
 @media screen and (max-width: 60rem) {
 	[data-component="site-header"] {
 		text-align: center;

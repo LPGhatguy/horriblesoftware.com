@@ -15,6 +15,11 @@
 		font-size: 1.8rem;
 		margin-left: 2em;
 		font-weight: 200;
+
+		& > code {
+			font-family: monospace;
+			background-color: rgba(0, 0, 0, 0.03);
+		}
 	}
 
 	@media screen and (max-width: 60rem) {
