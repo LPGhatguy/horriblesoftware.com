@@ -37,4 +37,8 @@
 		list-style: disc;
 		margin-left: 1rem;
 	}
+
+	strong {
+		font-weight: bold;
+	}
 }
