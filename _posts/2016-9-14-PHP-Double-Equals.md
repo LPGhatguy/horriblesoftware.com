@@ -39,6 +39,7 @@ PHP, however, takes the idea of type juggling a step further:
 5 == true; // true
 0 == "hello"; // true
 5 == "5 jacks jumping"; // true
+"0e04" == "0e08"; // WHAT!?
 ```
 
 PHP's `==` operator is *never* the correct choice. There's no `undefined` vs `nil` to work with, and the comparisons that pass are nonsensical!
