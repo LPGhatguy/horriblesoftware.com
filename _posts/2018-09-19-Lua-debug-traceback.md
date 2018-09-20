@@ -2,7 +2,7 @@
 title: ! 'Lua: debug.traceback'
 ---
 
-Lua has a function to capture stack traces. You can pass in which thread to capture the stack trace from, a message to prepend, and how many levels of the stack to skip. It returns a string.
+Lua has a function to capture stack traces. You can pass in a thread to capture the stack trace from, a message to prepend, and how many levels of the stack to skip. It returns a string.
 
 The signature from the Lua 5.1 reference manual is:
 
