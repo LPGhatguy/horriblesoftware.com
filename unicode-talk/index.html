@@ -10,6 +10,13 @@
 
 class: center, middle
 
+# Unicode Deep Dive
+## Lucien Greathouse
+
+---
+
+class: center, middle
+
 # Unicode ~~Deep~~ Shallow Dive
 ## Lucien Greathouse
 
@@ -56,6 +63,37 @@ class: center, middle
 
 .question[What's the length of this string?]
 
+.sample[a]
+
+--
+
+### Lua
+```lua
+string.len("a") -- 1
+```
+
+--
+
+### C# ###
+```csharp
+"a".Length // 1
+```
+
+--
+
+| Metric             | Count |
+|:------------------ |:----- |
+| Bytes (UTF-8)      | 1     |
+| Bytes (UTF-16)     | 2     |
+| Codeunits (UTF-16) | 1     |
+| Codepoints         | 1     |
+| Glyphs             | 1     |
+| Grapheme clusters  | 1     |
+
+---
+
+.question[What's the length of this string?]
+
 .sample[á]
 
 --
@@ -76,7 +114,7 @@ string.len("á") -- 2
 
 | Metric             | Count |
 |:------------------ |:----- |
-| Bytes (UTF-8)      | 1     |
+| Bytes (UTF-8)      | 2     |
 | Bytes (UTF-16)     | 2     |
 | Codeunits (UTF-16) | 1     |
 | Codepoints         | 1     |
@@ -482,7 +520,7 @@ Full details [on their developer site](https://developer.twitter.com/en/docs/bas
 * Treat strings as opaque blobs when possible!
 --
 
-* Length: Avoid it!
+* Length: avoid it!
   * Length is hard to communicate to users
   * If you need length, do what Twitter does!
 --
