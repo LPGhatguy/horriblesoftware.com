@@ -1,0 +1,145 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+h1, h2, h3 {
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+}
+
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+ol > li {
+  margin: 0;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+}
+
+.remark-slide-content a,
+.remark-slide-content .blue {
+  color: #2196f3;
+}
+
+.remark-slide-content ol,
+.remark-slide-content ul,
+.remark-slide-content p {
+  font-size: 1.65rem;
+}
+.remark-slide-content > ul > li,
+.remark-slide-content > ol > li {
+  margin-bottom: 1em;
+}
+.remark-slide-content h1 {
+  font-size: 3rem;
+}
+.remark-slide-content h2 {
+  font-size: 2.2rem;
+}
+.remark-slide-content h3 {
+  font-size: 1.25rem;
+}
+.remark-slide-content table {
+  border-spacing: 0;
+  width: 75%;
+  margin: 0 auto;
+}
+.remark-slide-content td,
+.remark-slide-content th {
+  padding: 0.5rem 2rem;
+}
+.remark-slide-content tr:nth-child(even) {
+  background-color: #eee;
+}
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+}
+
+/* Custom stuff */
+.remark-slide-content .question {
+  font-family: 'Roboto Slab';
+  font-size: 2.2rem;
+}
+
+.remark-slide-content .sample {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  height: 2.8rem;
+  text-align: center;
+  display: block;
+}
+
+.unicode-block {
+  display: flex;
+  margin: 0.2rem 0;
+}
+
+.unicode {
+  flex: 0 0;
+  display: block;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.unicode:not(:first-child) {
+  margin-left: -1.5px;
+}
+
+.unicode .letter {
+  display: block;
+  font-size: 3rem;
+  padding: 0.3rem;
+  height: 4rem;
+}
+
+.unicode .codepoint {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+
+.arrow-diagram {
+  display: flex;
+}
+
+.arrow-left,
+.arrow-right {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.arrow-arrows {
+  font-size: 2rem;
+  flex: 1 0 auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
